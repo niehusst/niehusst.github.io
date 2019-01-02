@@ -1,2 +1,2 @@
 # niehusstaab.com
-My personal website
+My personal website, lovingly hosted by Github.

@@ -1,0 +1,41 @@
+/*
+page colors light to dark:
+afffaa
+5bbaff
+0053bf
+003da8
+003991
+
+
+a:hover {} //do things when hovering over tag
+a {
+  cursor: pointer; //make mouse point when over tag
+}
+
+nice button styling!
+.answer {
+  border: 1px;
+  border-style: solid;
+  border-top-color: #466995;
+  border-radius: 10px;
+  box-shadow: 0px 4px;
+}
+
+//:hover rules have to come before the :active rules
+
+.answer:active {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+  background-color: #C0D6DF;
+  color: #ffffff;
+}
+*/
+@font-face {
+    font-family: PressStart2P;
+    src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+.name {
+  color: white;
+}

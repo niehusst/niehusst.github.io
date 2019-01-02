@@ -1,2 +1,3 @@
 # niehusstaab.com
-My personal website, lovingly hosted by Github.
+
+My personal website, lovingly hosted by Github Pages.

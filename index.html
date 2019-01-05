@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div> <!-- navbar -->
+  <!-- navbar -->
     <!--
     main background is mountains image from gratisograph
     TODO: make clicking tabs scroll you, not jump you, down to correct spot
@@ -20,16 +20,15 @@
     <li class="left"><a class="tab" href="#hobbies">Hobbies</a></li>
     <li class="left"><a class="tab" href="#connect">Connect</a></li>
   </ul>
-</div>
+
 <div><!-- div to wrap contents of page with -->
   <ul> <!-- unordered list to hold each page "item"-->
-    <li>
+    <li id="about">
+      <div class="bg-img">
       <!-- title item with image bg-->
       <h5 class="center text-white">I am</h5>
       <h1 class="name">Liam Niehus-Staab</h1>
-    </li>
 
-    <li id="about">
       <!-- * (about) elavator pitch, then another para of more personal things? still image bg -->
       <p class="pitch">
         I'm a Software Engineer.
@@ -38,9 +37,11 @@
         <br>
         Really, thats just a complicated way to say I help people do what they care about, because I care about making people happy.
       </p>
+    </div>
     </li>
 
     <li id="portfolio">
+      <div class="bg-col-grey">
       <!-- ### no more mountains ###
       * (portfolio) list of things from github i've worked on, paired with images of the things -->
       <h3 class="heading">Portfolio</h3>
@@ -144,9 +145,11 @@
           </div>
         </li>
       </ul>
+    </div>
     </li>
 
     <li id="resume">
+      <div class="bg-col-white">
       <!-- * (resume) button to download resume + short words about it? -->
       <h3 class="heading">Résumé</h3>
       <p>
@@ -154,9 +157,11 @@
         by clicking the button below.
       </p>
       <a href="Résumé.pdf" download><button class="cssbtn center">Download Résumé PDF</button></a> <!-- possible to link download from github? -->
+    </div>
     </li>
 
     <li id="hobbies"> <!-- swap which side the images go on-->
+      <div class="bg-col-grey">
       <h3 class="center">Stuff I do for Fun</h3>
       <ul>
         <li>
@@ -213,9 +218,11 @@
           </div>
         </li>
       </ul>
+    </div>
     </li>
 
     <li id="connect">
+      <div class="bg-col-white">
       <!-- * (contact) big images of logos for linkedin and gmail -->
       <h3 class="heading">Connect with Me</h3>
       <p>
@@ -227,6 +234,7 @@
         <a href="mailto:liamniehusstaab@gmail.com"><img class="cont-img" title="Gmail" alt="Gmail" src="https://upload.wikimedia.org/wikipedia/commons/4/45/New_Logo_Gmail.svg"></a>
         <a href="https://github.com/niehusst"><img class="cont-img" title="Github" alt="Github" src="GitHub-Mark-64px.png"></a>
       </div>
+    </div>
     </li>
   </ul>
 </div>

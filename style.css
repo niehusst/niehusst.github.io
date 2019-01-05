@@ -11,31 +11,90 @@ a:hover {} //do things when hovering over tag
 a {
   cursor: pointer; //make mouse point when over tag
 }
-
-nice button styling!
-.answer {
-  border: 1px;
-  border-style: solid;
-  border-top-color: #466995;
-  border-radius: 10px;
-  box-shadow: 0px 4px;
-}
-
-//:hover rules have to come before the :active rules
-
-.answer:active {
-  margin-top: 24px;
-  margin-bottom: 16px;
-  box-shadow: 0px 0px;
-  background-color: #C0D6DF;
-  color: #ffffff;
-}
 */
 @font-face {
-    font-family: PressStart2P;
-    src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+  font-family: PressStart2P;
+  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
 .name {
   color: white;
+  font-family: PressStart2P;
+  font-size: 50em;
+}
+
+p.pitch {
+  text-align: center;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+}
+
+.cssbtn {
+  border: 1px;
+  border-style: solid;
+  border-top-color: #AFFFAA;
+  border-radius: 10px;
+  box-shadow: 0px 4px;
+  color: black;
+}
+
+.cssbtn:hover {
+  cursor: pointer;
+  background-color: #5BBAFF
+}
+
+.cssbtn:active {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+  background-color: #0053BF;
+  color: white;
+}
+
+.horz {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 10px;
+  background: grey;
+}
+
+.text-white {
+  color: white;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003DA8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.left {
+  float: left;
+}
+
+a.tab {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a.tab:hover {
+  background-color: #003991;
 }

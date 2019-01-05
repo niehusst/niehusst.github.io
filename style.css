@@ -35,6 +35,7 @@ p.pitch {
 
 .cssbtn {
   border: 1px;
+  padding: 15px 24px;
   border-style: solid;
   border-top-color: #AFFFAA;
   border-radius: 10px;

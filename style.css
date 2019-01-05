@@ -11,15 +11,24 @@ afffaa
   src: url(Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
+ul {
+  list-style-type: none;
+}
+
 html {
   font-size: 14px;
   line-height: 1;
 }
 
 .name {
+  text-align: center;
   color: white;
   font-family: PressStart2P;
   font-size: 130%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p.pitch {
@@ -79,7 +88,7 @@ p.pitch {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #003DA8;
+  background-color: #0053BF;
   position: fixed;
   top: 0;
   width: 100%;
@@ -98,7 +107,11 @@ a.tab {
 }
 
 a.tab:hover {
-  background-color: #003991;
+  background-color: #003DA8;
+}
+
+a.tab:active {
+  background-color: black;
 }
 
 .item-img {
@@ -112,10 +125,13 @@ a.tab:hover {
 }
 
 .bg-img {
-  background-image: url(gratisography-mountain-peaks.jpg) no-repeat;
+  background-image: url(gratisography-mountain-peaks.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  background-position: 50% 50%;
+  height: 500px;
+  background-position: center;
+  position: relative;
 }
 
 .bg-col-white {

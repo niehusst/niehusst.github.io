@@ -132,7 +132,6 @@ a.tab:active {
   background-color: transparent;
   height: 500px;
   background-position: center;
-  position: relative;
 }
 
 .bg-col-white {

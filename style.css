@@ -98,3 +98,17 @@ a.tab {
 a.tab:hover {
   background-color: #003991;
 }
+
+.item-img {
+  width: 440;
+  height: 360;
+}
+
+.cont-img {
+  width: 200;
+  height: 200;
+}
+
+body {
+  background-image: url(gratisography-mountain-peaks.jpg);
+}

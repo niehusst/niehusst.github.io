@@ -5,22 +5,21 @@ afffaa
 0053bf
 003da8
 003991
-
-
-a:hover {} //do things when hovering over tag
-a {
-  cursor: pointer; //make mouse point when over tag
-}
 */
 @font-face {
   font-family: PressStart2P;
   src: url(Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
+html {
+  font-size: 14px;
+  line-height: 1;
+}
+
 .name {
   color: white;
   font-family: PressStart2P;
-  font-size: 50em;
+  font-size: 130%;
 }
 
 p.pitch {
@@ -49,8 +48,6 @@ p.pitch {
 }
 
 .cssbtn:active {
-  margin-top: 24px;
-  margin-bottom: 16px;
   box-shadow: 0px 0px;
   background-color: #0053BF;
   color: white;
@@ -64,9 +61,12 @@ p.pitch {
   text-align: center;
 }
 
-.footer {
+.footer-space {
   margin-top: 10px;
-  background: grey;
+}
+
+.footer-color {
+    background: grey;
 }
 
 .text-white {
@@ -110,6 +110,23 @@ a.tab:hover {
   height: 200;
 }
 
-body {
-  background-image: url(gratisography-mountain-peaks.jpg);
+.bg-img {
+  background-image: url(gratisography-mountain-peaks.jpg) no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-position: 50% 50%;
+}
+
+.bg-col-white {
+  background-color: white;
+  background-size: cover;
+}
+
+.bg-col-grey {
+  background-color: #DCDCDC;
+  background-size: cover;
+}
+
+p {
+  color: black;
 }

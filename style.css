@@ -58,19 +58,19 @@ p.pitch {
 
 .heading {
   text-align: center;
-  font: Impact, Charcoal, sans-serif;
+  font-family: Impact, Charcoal, sans-serif;
   color: black;
   padding-top: 5px;
   font-size: 50px;
 }
 
 .hobby-head {
-  font: Helvetica, Charcoal, sans-serif;
+  font-family: Helvetica, Charcoal, sans-serif;
   font-size: 30px;
 }
 
 .job-head {
-  font: Bookman, Charcoal, serif;
+  font-family: Bookman, Charcoal, serif;
   font-size: 30px;
 }
 

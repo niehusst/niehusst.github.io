@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-a.hover {
+a.h4:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -75,7 +75,7 @@ p.pitch {
 }
 
 .pad-bottom {
-  padding-bottom: 5px;
+  padding-bottom: 25px;
 }
 
 .cssbtn {

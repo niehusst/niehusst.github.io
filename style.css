@@ -18,6 +18,9 @@ ul, li {
 html {
   font-size: 14px;
   line-height: 1;
+}
+
+body {
   width: 100%;
 }
 

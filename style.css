@@ -69,6 +69,11 @@ p.pitch {
   font-size: 30px;
 }
 
+.job-head {
+  font: Bookman, Charcoal, serif;
+  font-size: 30px;
+}
+
 .pad-bottom {
   padding-bottom: 5px;
 }

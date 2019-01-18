@@ -49,6 +49,8 @@ p.pitch {
 .heading {
   text-align: center;
   color: black;
+  padding-top: 10px;
+  font-size: 50px;
 }
 
 .cssbtn {

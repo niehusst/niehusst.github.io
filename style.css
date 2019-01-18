@@ -106,6 +106,10 @@ p.pitch {
   display: inline-block;
 }
 
+.horz-child {
+  float: left;
+}
+
 .center {
   text-align: center;
 }

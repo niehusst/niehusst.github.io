@@ -48,8 +48,9 @@ p.pitch {
 
 .heading {
   text-align: center;
+  font: Impact, Charcoal, sans-serif;
   color: black;
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 50px;
 }
 
@@ -88,7 +89,12 @@ p.pitch {
 }
 
 .footer-color {
-    background: grey;
+  background: grey;
+}
+
+.footer-text {
+  line-height: 1;
+  font-size: 10px;
 }
 
 .text-white {

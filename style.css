@@ -75,17 +75,18 @@ p.pitch {
 }
 
 .pad-bottom {
-  padding-bottom: 25px;
+  padding-bottom: 55px;
 }
 
 .cssbtn {
-  border: 1px;
+  border: 3px;
   padding: 15px 24px;
   border-style: solid;
   border-top-color: blue;
-  background-color: #AFFFAA;
-  border-radius: 10px;
-  box-shadow: 0px 4px;
+  /*background-color: #AFFFAA;*/
+  border-radius: 100px;
+  font-family: sans-serif;
+  font-size: 16px;
   color: black;
 }
 

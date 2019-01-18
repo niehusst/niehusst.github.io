@@ -127,13 +127,13 @@ a.tab:active {
 }
 
 .item-img {
-  width: 440;
-  height: 360;
+  width: 440px;
+  height: 360px;
 }
 
 .cont-img {
-  width: 200;
-  height: 200;
+  width: 200px;
+  height: 200px;
 }
 
 .bg-img {
@@ -142,7 +142,8 @@ a.tab:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-position: center;
 }
 

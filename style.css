@@ -16,12 +16,15 @@ ul, li {
 }
 
 html {
-  font-size: 14px;
-  line-height: 1;
+  font-size: 20px;
+  line-height: 2;
 }
 
 body {
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
 }
 
 .name {
@@ -29,10 +32,8 @@ body {
   color: white;
   font-family: PressStart2P;
   font-size: 100px;
-  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 p.pitch {

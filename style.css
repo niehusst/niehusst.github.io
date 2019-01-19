@@ -59,6 +59,7 @@ p.pitch {
 }
 
 .heading,.heading-decoration-left,.heading-decoration-right {
+  width:auto;
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
   color: black;

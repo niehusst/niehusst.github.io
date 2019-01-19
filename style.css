@@ -58,12 +58,21 @@ p.pitch {
   padding-bottom: 30px;
 }
 
-.heading {
+.heading,.heading-decoration-left,.heading-decoration-right {
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
   color: black;
   padding-top: 5px;
   font-size: 50px;
+  float: left;
+}
+
+.heading-decoration-left {
+  padding-right: 50px;
+}
+
+.heading-decoration-right {
+  padding-left: 50px;
 }
 
 .hobby-head {
@@ -72,7 +81,7 @@ p.pitch {
 }
 
 .job-head {
-  font-family: Bookman, Charcoal, serif;
+  font-family: "Century Gothic", CenturyGothic, sans-serif;
   font-size: 30px;
 }
 

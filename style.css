@@ -119,8 +119,12 @@ p.pitch {
   display: inline-block;
 }
 
-.horz-child {
+.left {
   float: left;
+}
+
+.right {
+  float: right;
 }
 
 .center {

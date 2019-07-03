@@ -25,6 +25,88 @@ a:hover {
   text-decoration: underline;
 }
 
+.name {
+  text-align: center;
+  color: white;
+  font-family: PressStart2P;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+}
+
+.cssbtn {
+  border: 3px;
+  padding: 15px 24px;
+  border-style: solid;
+  border-radius: 100px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.cssbtn:hover {
+  cursor: pointer;
+  background-color: #5BBAFF
+}
+
+.cssbtn:active {
+  box-shadow: 0px 0px;
+  background-color: #0053BF;
+  color: white;
+}
+
+.bg-img {
+  background-image: url(/gratisography-mountain-peaks.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0053BF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a.tab {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a.tab:hover {
+  background-color: #003DA8;
+}
+
+a.tab:active {
+  background-color: black;
+}
+
+.footer-space {
+  margin-top: 10px;
+}
+
+.footer-color {
+  background: grey;
+}
+
+.footer-text {
+  line-height: 1;
+  font-size: 12px;
+}
+
+/* prevent interferance with Bootstrap
 html {
   font-size: 20px;
   line-height: 2;
@@ -40,15 +122,6 @@ div {
   padding-left: 0;
   padding-right: 0;
   overflow-x: hidden;
-}
-
-.name {
-  text-align: center;
-  color: white;
-  font-family: PressStart2P;
-  font-size: 100px;
-  top: 50%;
-  left: 50%;
 }
 
 p.pitch {
@@ -93,30 +166,12 @@ p.pitch {
   padding-bottom: 55px;
 }
 
-.cssbtn {
-  border: 3px;
-  padding: 15px 24px;
-  border-style: solid;
-  /*background-color: #AFFFAA;*/
-  border-radius: 100px;
-  font-family: sans-serif;
-  font-size: 16px;
-  color: black;
-}
-
-.cssbtn:hover {
-  cursor: pointer;
-  background-color: #5BBAFF
-}
-
-.cssbtn:active {
-  box-shadow: 0px 0px;
-  background-color: #0053BF;
-  color: white;
-}
-
 .horz {
   display: inline-block;
+}
+
+li.left {
+  float: left;
 }
 
 .left {
@@ -131,52 +186,8 @@ p.pitch {
   text-align: center;
 }
 
-.footer-space {
-  margin-top: 10px;
-}
-
-.footer-color {
-  background: grey;
-}
-
-.footer-text {
-  line-height: 1;
-  font-size: 12px;
-}
-
 .text-white {
   color: white;
-}
-
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0053BF;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li.left {
-  float: left;
-}
-
-a.tab {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-a.tab:hover {
-  background-color: #003DA8;
-}
-
-a.tab:active {
-  background-color: black;
 }
 
 .item-img {
@@ -189,16 +200,6 @@ a.tab:active {
   height: 200px;
 }
 
-.bg-img {
-  background-image: url(/gratisography-mountain-peaks.jpg);
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;
-  width: 100%;
-  height: auto;
-  background-position: center;
-}
 
 .bg-col-white {
   background-color: white;
@@ -213,3 +214,4 @@ a.tab:active {
 p {
   color: black;
 }
+*/

@@ -105,11 +105,11 @@ a.tab:active {
 }
 
 .footer-space {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .footer-color {
-  background: grey;
+  background: #454545;
 }
 
 .footer-text {
@@ -130,10 +130,6 @@ a.tab:active {
 
 p {
   color: black;
-}
-
-.blue-text {
-    color: lightblue;
 }
 
 .heading,.heading-decoration-left,.heading-decoration-right {
@@ -248,4 +244,16 @@ li.left {
 
 .text-gray {
   color: #666666;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: #27e86b;
+}
+
+.blue-text {
+    color: blue;
 }

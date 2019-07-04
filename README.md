@@ -7,7 +7,7 @@ human (and just enough personality to not be a robot).
 * [**Liam Niehus-Staab**](https://github.com/niehusst) - who else?
 
 ## Acknowledgements
-* Hosted with <3 by Github pages
+* Hosted with <3 by [Github pages](https://pages.github.com/)
 * Font [PressStart2P](https://fonts.google.com/specimen/Press+Start+2P) by Codeman38 from Google fonts
 * TODO: photos acks
 cat icon
@@ -15,3 +15,4 @@ bg photo
 photo of me
 
 * The [Bootstrap](https://getbootstrap.com/) CSS library, filled with more CSS than I could ever write
+* [fontawesome](https://fontawesome.com/) for their beautiful icons.

@@ -242,6 +242,11 @@ li.left {
   background-size: cover;
 }
 
+.bg-col-continuation {
+  background-color: #050308;
+  background-size: cover;
+}
+
 .text-gray {
   color: #666666;
 }

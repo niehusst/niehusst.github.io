@@ -33,12 +33,40 @@ a:hover {
   text-align: center;
   color: white;
   font-family: PressStart2P;
-  font-size: 70px;
+  font-size: 12px;  /* Default for really small devices */
   top: 50%;
   left: 50%;
   white-space: nowrap;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .name {
+    font-size: 25px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .name {
+    font-size: 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .name {
+    font-size: 55px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .name {
+    font-size: 70px;
+  }
 }
 
 .cssbtn {

@@ -1,258 +1,374 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Liam Niehus-Staab</title>
-    <link href="/css/style.css" type="text/css" rel="stylesheet">
-    <link href="/css/bootstrab.min.css" type="text/css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/000000/cat.png">
-  </head>
-  <body>
-    <!-- navbar -->
+<head>
+  <!-- Set data for tab -->
+  <title>Liam Niehus-Staab</title>
+  <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/000000/cat.png">
+  <meta charset="UTF-8">
+  <!-- Bootstrap mobile friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- My custom CSS and the Bootstrap CSS library -->
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!--Font Awsome 5.8 (free version) for icons -->
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><!--TODO hopefully this isn't needed-->
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg nav-color sticky-top">
+    <a class="navbar-brand p2-font text-white" href="#">Liam</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="tab" href="#about">About</a></li><!--TODO inner class need to be nav-link?-->
+        <li class="nav-item"><a class="tab" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="tab" href="#resume">Résumé</a></li>
+        <li class="nav-item"><a class="tab" href="#hobbies">Hobbies</a></li>
+        <li class="nav-item"><a class="tab" href="#connect">Connect</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+              <a target="_blank" href="https://github.com/niehusst" class=""><i class="fab fa-github text-white"></i></a>
+              &NonBreakingSpace;
+              <a target="_blank" href="https://linkedin.com/in/liam-niehus-staab" class=""><i class="fab fa-linkedin-in text-white"></i></a>
+              &NonBreakingSpace;
+              &NonBreakingSpace;
+          </li>
+      </ul>
+          <a href="mailto:liamniehusstaab@gmail.com" class="nav-link btn btn-outline-light">Email Me</a>
+    </div>
+  </nav>
+
+  <div class="container"> <!-- TODO: bg color black -->
     <!--
     main background is mountains image from gratisograph
     TODO: make clicking tabs scroll you, not jump you, down to correct spot?
-  -->
-    <div class="container">
-      <ul class="navbar">
-        <li class="left"><a class="tab" href="#about">About</a></li>
-        <li class="left"><a class="tab" href="#portfolio">Portfolio</a></li>
-        <li class="left"><a class="tab" href="#resume">Résumé</a></li>
-        <li class="left"><a class="tab" href="#hobbies">Hobbies</a></li>
-        <li class="left"><a class="tab" href="#connect">Connect</a></li>
-      </ul>
+    -->
+    <div class="bg-img" id="about"> <!-- TODO: make bg image space or something -->
+      <!-- Round image of my face TODO: add preferred headshot to assets-->
+      <img src="assets/headshot.jpeg" class="rounded-img headshot" alt="">
 
-      <div class="bg-img" id="about">
-        <!-- title item with image bg-->
-        <h5 class="center text-white">I am</h5>
-        <h1 class="name">Liam<br>Niehus-Staab</br></h1>
+      <!-- title item -->
+      <h1 class="name">Liam Niehus-Staab</h1>
 
-        <!-- * (about) elavator pitch, then another para of more personal things? still image bg -->
-        <p class="pitch">
-          I'm a Software Engineer.
-          <br>
-          Officially, I write code and make quality products that fill a need for a client.
-          <br>
-          Really, thats just a complicated way to say I help people do what they care about, because I care about making people happy.
-        </p>
-      </div>
+      <!-- TODO: make into card with midnight blue bg (darkest from website color scheme?) and white outline -->
+      <!-- * (about) elavator pitch, then another para of more personal things? still image bg -->
+      <p class="pitch">
+        I'm a Software Engineer.
+        <br>Officially, I write code and make quality products that fill a need for a client.</br>
+        <br>Really, thats just a complicated way to say I help people do what they care about, because I care about making people happy.</br>
+      </p>
+    </div>
 
-      <div class="bg-col-grey" id="portfolio">
-        <!-- ### no more mountains ###
-        * (portfolio) list of things from github i've worked on, paired with images of the things -->
-        <div class="center width-auto">
-          <div class="horz width-auto">
-            <h3 class="heading-decoration-left">------</h3>
-            <h3 class="heading">   Portfolio   </h3>
-            <h3 class="heading-decoration-right">------</h3>
-          </div>
+    <div class="bg-col-grey" id="portfolio">
+      <!-- ### no more mountains ###
+      * (portfolio) list of things from github i've worked on, paired with images of the things -->
+      <div class="center width-auto">
+        <div class="horz width-auto">
+          <h3 class="heading-decoration-left">&gt;</h3>
+          <h3 class="heading">   Portfolio   </h3>
+          <h3 class="heading-decoration-right">&lt;</h3>
         </div>
-        <ul>
-          <!-- stuff ive done -->
-          <li>
-            <!-- GrammieGram Android app -->
-            <div class="horz">
-              <img style="width:250px;height:400px;" class="item-img left" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="/assets/nativeapp.png">
+      </div>
+      <ul>
+        <!-- stuff ive done -->
+        <li>
+          <!-- TODO: add hytrust card -->
 
-              <a href="https://grammiegram.com"><h4 class="job-head">GrammieGram Android Native App</h4></a> <!-- TODO: change link when app is released -->
-              <h5>Head of Android Development, Since Fall 2018</h5>
+
+          <!-- GrammieGram Android app -->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="assets/nativeapp.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://github.com/niehusst/GrammieGram-Android"><h4 class="card-title">GrammieGram Android Native App</h4></a>
+                  <h5 class="card-title">Head of Android Development, Since Fall 2018</h5>
+                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <p class="card-text">
+                    Building on GrammieGram's mission of designing communication technology with ease of
+                    use at its core, I was put in charge of leading a brand-new team of 3 Android mobile developers.
+                    Our goal: designing and implementing every aspect of Android mobile version of the GrammieGram web app
+                    with the assistance of GrammieGram's public RESTful API.
+                    <!-- TODO: say something about leadership or what i've learned here... -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TODO delete
+          <div class="horz">
+            <img style="width:250px;height:400px;" class="item-img left" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="/assets/nativeapp.png">
+
+            <a href="https://github.com/niehusst/GrammieGram-Android"><h4 class="job-head">GrammieGram Android Native App</h4></a>
+
+            <p>
+
+            </p>
+
+          </div>-->
+        </li>
+        <li>
+          <!-- GrammieGram web app-->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left" title="GrammieGram Web" alt="GrammieGram Bird in Browser" src="assets/webapp.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://grammiegram.com"><h4 class="card-title">GrammieGram Web App</h4></a>
+                  <h5 class="card-title">Co-Founder and Full Stack Developer, Summer 2018</h5>
+                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <p class="card-text">
+                    I co-founded GrammieGram LLC in the spring of 2018 with 4 close friends. We founded
+                    GrammieGram with the goal of solving a problem for our CEO's grandmother; communication technology
+                    was too complicated. With our quest in hand, we set out to develop a communication platform
+                    optimized for the elderly, and designed to be as simple to use as possible.
+                    That summer, I worked at GrammieGram as a Full Stack developer, building the GrammieGram
+                    web app using Python and Django on the backend and JavaScript and Bootstrap on the frontend.
+                    Working remotely with a small team of people I trust, and aiming to improve the lives of real people,
+                    I first began to get a glimpse of what working as a software engineer really means.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="horz">TODO: dlete
+            <img class="item-img left" >
+
+              <h4 class="job-head">GrammieGram Web App</h4></a>
+              <h5>Co-Founder and Full Stack Developer, Summer 2018</h5>
               <h5>Grinnell, Iowa</h5>
               <p>
-                Building on GrammieGram's mission of designing communication technology with ease of
-                use at its core, I was put in charge of leading a brand-new team of 3 Android mobile developers.
-                Our goal: designing and implementing every aspect of Android mobile version of the GrammieGram web app
-                with the assistance of GrammieGram's public RESTful API.
-                <!-- TODO: say something about leadership or what i've learned here... -->
+
               </p>
 
+          </div>-->
+        </li>
+        <li>
+          <!-- MTS -->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left" title="MapTextSynthesizer" alt="Map Text Synthesizer" src="assets/mts.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://github.com/niehusst/MapTextSynthesizer"><h4 class="card-title">MapTextSynthesizer</h4></a>
+                  <h5 class="card-title">Research Assistant, Summer 2018</h5>
+                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <p class="card-text">
+                    With a partner, I developed a program that can train a Convolutional Neural Network
+                    to read text in scanned images of historical maps. Our mentor is researching a tool
+                    that can make text in historical maps searchable by being able to pick out and recognise
+                    the words in the map. However, due to a dearth of real training data, my partner and I were
+                    tasked with creating synthetic training data.
+                    Our project, MapTextSynthesizer, dynamically generates grey-scale, synthetic images containing
+                    text, which appear to be from historical maps. Training on MapTextSynthesizer generated data
+                    improved the accuracy of my mentor's CNN by 10% over results when trained on industry standard
+                    character recognition datasets.
+                    We also managed to write a paper that got accepted to the ICDAR conference.
+                    <!-- TODO: workshop language ^^^-->
+                  </p>
+                </div>
+              </div>
             </div>
-          </li>
-          <li>
-            <!-- GrammieGram web app-->
-            <div class="horz">
-              <img class="item-img left" title="GrammieGram Web" alt="GrammieGram Bird in Browser" src="/assets/webapp.png">
-
-                <a href="https://grammiegram.com"><h4 class="job-head">GrammieGram Web App</h4></a>
-                <h5>Co-Founder and Full Stack Developer, Summer 2018</h5>
-                <h5>Grinnell, Iowa</h5>
-                <p>
-                  I co-founded GrammieGram LLC in the spring of 2018 with 4 close friends. We founded
-                  GrammieGram with the goal of solving a problem for our CEO's grandmother; communication technology
-                  was too complicated. With our quest in hand, we set out to develop a communication platform
-                  optimized for the elderly, and designed to be as simple to use as possible.
-                  That summer, I worked at GrammieGram as a Full Stack developer, building the GrammieGram
-                  web app using Python and Django on the backend and JavaScript and Bootstrap on the frontend.
-                  Working remotely with a small team of people I trust and aiming to improve the lives of real people,
-                  I began to get a glimpse of what working as a software engineer really means.
-                </p>
-
-            </div>
-          </li>
-          <li>
-            <!-- MTS -->
-            <div class="horz">
-              <img class="item-img left" title="MapTextSynthesizer" alt="Map Text Synthesizer" src="/assets/mts.png">
-
-                <a href="https://github.com/niehusst/MapTextSynthesizer"><h4 class="job-head">MapTextSynthesizer</h4></a>
-                <h5>Research Assistant, Summer 2018</h5>
-                <h5>Grinnell, Iowa</h5>
-                <p>
-                  With a partner, I developed a program that can train a Convolutional Neural Network
-                  to read text in scanned images of historical maps. Our mentor is researching a tool
-                  that can make text in historical maps searchable by being able to pick out and recognise
-                  the words in the map. However, due to a dearth of real training data, my partner and I were
-                  tasked with creating synthetic training data.
-                  Our project, MapTextSynthesizer, dynamically generates grey-scale, synthetic images containing
-                  text, which appear to be from historical maps. Training on MapTextSynthesizer generated data
-                  improved the accuracy of my mentor's CNN by 10% over results when trained on industry standard
-                  character recognition datasets.
-                </p>
-
-            </div>
-          </li>
-          <li>
-            <!-- Appdev -->
-            <div class="horz">
-              <img style="height:440px;" class="item-img left" title="Grinnell Appdev Logo" alt="Grinnell Appdev logo" src="/assets/appdev_logo.png">
-                <a href="https://appdev.grinnell.edu/"><h4 class="job-head">Grinnell AppDev</h4></a>
-                <h5>Junior Android Developer, Since Spring 2018</h5>
-                <h5>Grinnell, Iowa</h5>
-                <p>
-                  Working quality assurance for the Grinnell student directory app (lovingly known as DB) taught me
-                  the importance and complexity of testing that is required for large-scale, or even just medium-scale
-                  software products. I spent a lot of time between classes learning how to use Espresso and Mockito to
-                  create unit and implementation tests for Android. Additionally, I got to work on a large code-base from which I
-                  learned many tips and tricks that I use in my own Android projects.
-                </p>
-            </div>
-          </li>
-          <li>
-            <!-- Compliance Accomplice -->
-            <div class="horz">
-              <img style="height:200px;" class="item-img left" title="Compliance Accomplice Logo" alt="Compliance Accomplice Logo" src="https://raw.githubusercontent.com/niehusst/ComplianceAccomplice/master/res/logo.png">                                               <!-- TODO: change div to span to allow horizontal align???-->
-                <a href="https://github.com/niehusst/ComplianceAccomplice"><h4 class="job-head">HackUIowa</h4></a>
-                <h5>Compliance Accomplice, Fall 2018</h5>
-                <h5>Iowa City, Iowa</h5>
-                <p>
-                  Built during the fall 2018 HackUIowa hackathon, Compliance Accomplice is an email system
-                  middleware for detecting and archiving potential SEC compliance issues in a
-                  self-hosted email server using Natural Language Processing. Participating in a hackathon
-                  really allowed me to get excited about a new project and see the breadth of
-                  software development applications; not everything is reversing linked lists, eh?
-                </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="bg-col-white" id="resume">
-        <!-- * (resume) button to download resume + short words about it? -->
-        <div class="center width-auto">
-          <div class="horz width-auto">
-            <h3 class="heading-decoration-left">------</h3>
-            <h3 class="heading">   Résumé   </h3>
-            <h3 class="heading-decoration-right">------</h3>
           </div>
-        </div>
-        <p class="center">
-          Maybe you're recruiter, or maybe you just like reading résumés. Either way, my résumé is avalible
-          at the click of a button.
-        </p>
-        <div class="center pad-bottom">
-          <a href="Résumé.pdf" download><button class="cssbtn">Download my Résumé</button></a> <!-- possible to link download from github? -->
-        </div>
-      </div>
 
-      <div class="bg-col-grey" id="hobbies">
-        <!-- swap which side the images go on-->
-        <div class="center width-auto">
-          <div class="horz width-auto">
-            <h3 class="heading-decoration-left">------</h3>
-            <h3 class="heading">   Hobbies   </h3>
-            <h3 class="heading-decoration-right">------</h3>
-          </div>
-        </div>
-        <ul>
-          <li>
-            <!-- frisbee -->
-            <div class="horz">
-              <img style="height:300px;" class="item-img right" title="Liam Frisbee Fan Image" alt="Frisbee" src="/assets/ultimate.jpg">
-              <h4 class="hobby-head">Ultimate Frisbee</h4>
+          <!--<div class="horz">TODO dlelet
+            <img class="item-img left" >
+
+              <h4 class="job-head"></h4></a>
+              <h5></h5>
+              <h5>Grinnell, Iowa</h5>
               <p>
-                  Ultimate Frisbee was introduced to me in middle school gym class as the weird
-                  sport that didn't make any sense because no one knew the rules. Despite first impressions,
-                  I continued playing Ultimate among friends and in the local frisbee league. I went
-                  on to co-found my high school's Ultimate Frisbee club and we went on to compete at a
-                  state level. Now, I'm the captain of the Ultimate Frisbee open team at Grinnell College
-                  where I teach and refine the skills of both new and returning players. My favorite
-                  part of Ultimate is being part of a team and enabling our success.
+
               </p>
-            </div>
-          </li>
-          <li>
-            <!-- giv -->
-            <div class="horz">
-              <img class="item-img right" title="Vegan" alt="Veganism Image" src="https://openclipart.org/image/2400px/svg_to_png/194524/Vegan.png">
-                <h4 class="hobby-head">Grinnell Intersectional Vegans</h4>
-                <p>
-                  After watching a documentary on the adverse effects of animal agriculture on the
-                  environment, I decided to go Vegan&trade;. I joined the intersectional vegan club
-                  at Grinnell College and learned a lot more about how the actions of an individual
-                  can (and do) have an impact on the world, and the importance of self efficacy. Today,
-                  I co-lead the Grinnell Intersectional Vegans and help organize club meetings and events.
-                </p>
-            </div>
-          </li>
-          <li>
-            <!-- pals -->
-            <div class="horz">
-              <img style="height:250px;" class="item-img right" title="PALS" alt="PALS" src="/assets/palsLogo.png">
-                <h4 class="hobby-head">Powesheik Animal League Shelter (PALS)</h4>
-                <p>
-                  I grew up with two cats, which undoubtedly kickstarted my love for animals
-                  and particularly cats. I've been volunteering at animal shelters since
-                  high school, so I knew that I had to go to a college where I could continue
-                  helping animals without homes. I can honestly say that PALS, the animal shelter
-                  near Grinnell College, played a part in my college decision and I have no regrets.
-                  I volunteer at PALS weekly, cleaning and socializing the amazing felines that live
-                  there. It is my bitter-sweet joy to get to know and care for cats at the shelter,
-                  and then see them adopted.
-                </p>
-            </div>
-          </li>
-        </ul>
-      </div>
 
-
-      <div class="bg-col-white" id="connect">
-        <!-- * (contact) big images of logos for linkedin and gmail -->
-        <div class="center width-auto">
-          <div class="horz width-auto">
-            <h3 class="heading-decoration-left">------</h3>
-            <h3 class="heading">   Connect with Me   </h3>
-            <h3 class="heading-decoration-right">------</h3>
+          </div>-->
+        </li>
+        <li>
+          <!-- Appdev -->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left" title="Grinnell Appdev Logo" alt="Grinnell Appdev logo" src="assets/appdev_logo.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://appdev.grinnell.edu/"><h4 class="card-title">Grinnell College AppDev</h4></a>
+                  <h5 class="card-title">Junior Android Developer, Since Spring 2018</h5>
+                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <p class="card-text">
+                    Working on quality assurance for the Grinnell student directory app (lovingly known as DB) taught me
+                    the importance and complexity of testing that is required for large-scale, or even just medium-scale
+                    software products. I spent a lot of time between classes learning how to use Espresso and Mockito to
+                    create unit and implementation tests for Android. Additionally, I got to work on a large code-base from which I
+                    learned many tips and tricks that I use in my own Android projects.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <p class="center">
-          Feel free to contact through either LinkedIn or Gmail. Or, if you want to see more projects I have worked on,
-          check out my Github!
-        </p>
-        <div class="horz center"> <!-- horizontal orientation -->
-          <a href="https://www.linkedin.com/in/liam-niehus-staab-a84295127/"><img class="cont-img" title="LinkedIn" alt="LinkedIn" src="/assets/LinkedIn_logo.png"></a>
-          <a href="mailto:liamniehusstaab@gmail.com"><img class="cont-img" title="Gmail" alt="Gmail" src="https://upload.wikimedia.org/wikipedia/commons/4/45/New_Logo_Gmail.svg"></a>
-          <a href="https://github.com/niehusst"><img class="cont-img" title="Github" alt="Github" src="/assets/GitHub-Mark.png"></a>
+
+          <!--<div class="horz">TODO dlelte
+            <img style="height:440px;" class="item-img left" >
+              <h4 class="job-head"></h4></a>
+              <h5></h5>
+              <h5>Grinnell, Iowa</h5>
+              <p>
+
+              </p>
+          </div>-->
+        </li>
+        <li>
+          <!-- Compliance Accomplice -->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left" title="Compliance Accomplice Logo" alt="Compliance Accomplice Logo" src="https://raw.githubusercontent.com/niehusst/ComplianceAccomplice/master/res/logo.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://github.com/niehusst/ComplianceAccomplice"><h4 class="card-title">HackUIowa</h4></a>
+                  <h5 class="card-title">Compliance Accomplice, Fall 2018</h5>
+                  <h5 class="card-title">Iowa City, Iowa</h5>
+                  <p class="card-text">
+                    Built during the fall 2018 HackUIowa hackathon, Compliance Accomplice is an email system
+                    middleware for detecting and archiving potential SEC compliance issues in a
+                    self-hosted email server using Natural Language Processing. Participating in a hackathon
+                    really allowed me to get excited about a new project and see the breadth of
+                    software development applications. Not to mention we won awards for
+                    "Best Commercial Potential" and "Best use of Google Cloud".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="horz">TODO delete
+            <img style="height:200px;" class="item-img left" >
+              <h4 class="job-head">HackUIowa</h4></a>
+              <h5></h5>
+              <h5>Iowa City, Iowa</h5>
+              <p>
+
+              </p>
+          </div>-->
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-col-white" id="resume">
+      <!-- * (resume) button to download resume + short words about it? -->
+      <div class="center width-auto">
+        <div class="horz width-auto">
+          <h3 class="heading-decoration-left">&gt;</h3>
+          <h3 class="heading">   Résumé   </h3>
+          <h3 class="heading-decoration-right">&lt;</h3>
         </div>
       </div>
-
-      <footer class="footer-color">
-        <div class="footer-space center">
-          <p class="footer-text text-white">&copy; 2019 Liam Niehus-Staab</p>
-          <p class="footer-text text-white">Built with <a href="https://fonts.google.com/specimen/Press+Start+2P?selection.family=Press+Start+2P">Press Start 2P</a>.
-            Hosted with love by <a href="https://pages.github.com/">Github Pages</a>
-          </p>
-        </div>
-      </footer>
+      <p class="center">
+        Maybe you're a recruiter, or maybe you just like reading résumés. Either way, my résumé is avalible
+        at the click of a button.
+      </p>
+      <div class="center pad-bottom">
+        <a href="Résumé.pdf" download><button class="cssbtn">Download my Résumé</button></a> <!-- TODO: link download from github tech_resume branch -->
+      </div>
     </div>
-  </body>
+
+    <div class="bg-col-grey" id="hobbies">
+      <!-- swap which side the images go on-->
+      <div class="center width-auto">
+        <div class="horz width-auto">
+          <h3 class="heading-decoration-left">&gt;</h3>
+          <h3 class="heading">   Hobbies   </h3>
+          <h3 class="heading-decoration-right">&lt;</h3>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <!-- frisbee -->
+          <div class="horz">
+            <img style="height:300px;" class="item-img right" title="Liam Frisbee Fan Image" alt="Frisbee" src="assets/ultimate.jpg">
+            <h4 class="hobby-head">Ultimate Frisbee</h4>
+            <p>
+                Ultimate Frisbee was introduced to me in middle school gym class as the weird
+                sport that didn't make any sense because no one knew the rules. Despite first impressions,
+                I continued playing Ultimate among friends and in the local frisbee league. I went
+                on to co-found my high school's Ultimate Frisbee club and we went on to compete at a
+                state level. Now, I'm the captain of the Ultimate Frisbee open team at Grinnell College
+                where I teach and refine the skills of both new and returning players. My favorite
+                part of Ultimate is being part of a team and enabling our success.
+            </p>
+          </div>
+        </li>
+        <li>
+          <!-- giv -->
+          <div class="horz">
+            <img class="item-img right" title="Vegan" alt="Veganism Image" src="https://openclipart.org/image/2400px/svg_to_png/194524/Vegan.png">
+              <h4 class="hobby-head">Grinnell Intersectional Vegans</h4>
+              <p>
+                After watching a documentary on the adverse effects of animal agriculture on the
+                environment, I decided to go Vegan&trade;. I joined the intersectional vegan club
+                at Grinnell College and learned a lot more about how the actions of an individual
+                can (and do) have an impact on the world, and the importance of self efficacy. Today,
+                I co-lead the Grinnell Intersectional Vegans and help organize club meetings and events.
+              </p>
+          </div>
+        </li>
+        <li>
+          <!-- pals -->
+          <div class="horz">
+            <img style="height:250px;" class="item-img right" title="PALS" alt="PALS" src="assets/palsLogo.png">
+              <h4 class="hobby-head">Powesheik Animal League Shelter (PALS)</h4>
+              <p>
+                I grew up with two cats, which undoubtedly kickstarted my love for animals
+                and particularly cats. I've been volunteering at animal shelters since
+                high school, so I knew that I had to go to a college where I could continue
+                helping animals without homes. I can honestly say that PALS, the animal shelter
+                near Grinnell College, played a part in my college decision and I have no regrets.
+                I volunteer at PALS weekly, cleaning and socializing the amazing felines that live
+                there. It is my bitter-sweet joy to get to know and care for cats at the shelter,
+                and then see them adopted.
+              </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="bg-col-white" id="connect">
+      <!-- * (contact) big images of logos for linkedin and gmail -->
+      <div class="center width-auto">
+        <div class="horz width-auto">
+          <h3 class="heading-decoration-left">&gt;</h3>
+          <h3 class="heading">   Connect with Me   </h3>
+          <h3 class="heading-decoration-right">&lt;</h3>
+        </div>
+      </div>
+      <p class="center">
+        Feel free to contact through either LinkedIn or Gmail. Or, if you want to see more projects I have worked on,
+        check out my Github!
+      </p>
+      <div class="horz center"> <!-- horizontal orientation -->
+        <a href="https://www.linkedin.com/in/liam-niehus-staab-a84295127/"><img class="cont-img" title="LinkedIn" alt="LinkedIn" src="assets/LinkedIn_logo.png"></a>
+        <a href="mailto:liamniehusstaab@gmail.com"><img class="cont-img" title="Gmail" alt="Gmail" src="https://upload.wikimedia.org/wikipedia/commons/4/45/New_Logo_Gmail.svg"></a>
+        <a href="https://github.com/niehusst"><img class="cont-img" title="Github" alt="Github" src="assets/GitHub-Mark.png"></a>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer-color">
+    <div class="footer-space center">
+      <p class="footer-text text-white">&copy; 2019 Liam Niehus-Staab</p>
+      <p class="footer-text text-white">Built with <a href="https://fonts.google.com/specimen/Press+Start+2P?selection.family=Press+Start+2P">Press Start 2P</a>.
+        Hosted with &#x1F496; by <a href="https://pages.github.com/">Github Pages</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
 </html>

@@ -8,7 +8,11 @@ afffaa
 */
 @font-face {
   font-family: PressStart2P;
-  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+  src: url(../Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+.p2-font {
+  font-family: PressStart2P;
 }
 
 ul, li {
@@ -29,7 +33,7 @@ a:hover {
   text-align: center;
   color: white;
   font-family: PressStart2P;
-  font-size: 100px;
+  font-size: 70px;
   top: 50%;
   left: 50%;
 }
@@ -55,8 +59,8 @@ a:hover {
   color: white;
 }
 
-.bg-img {
-  background-image: url(/gratisography-mountain-peaks.jpg);
+.bg-img {/*TODO: change to space image */
+  background-image: url(../assets/gratisography-mountain-peaks.jpg);
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,10 +75,13 @@ a:hover {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0053BF;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.nav-color {
+  background-color: #0053BF;
 }
 
 a.tab {
@@ -86,11 +93,12 @@ a.tab {
 }
 
 a.tab:hover {
-  background-color: #003DA8;
+  color: #AFFFAA;
+  text-decoration: none;
 }
 
 a.tab:active {
-  background-color: black;
+  color: #5BBAFF;
 }
 
 .footer-space {
@@ -106,29 +114,23 @@ a.tab:active {
   font-size: 12px;
 }
 
-/* prevent interferance with Bootstrap
-html {
-  font-size: 20px;
-  line-height: 2;
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-top: 30px;*/
+  width: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+p {
+  color: black;
 }
 
-div {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  overflow-x: hidden;
-}
-
-p.pitch {
-  text-align: center;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.blue-text {
+    color: lightblue;
 }
 
 .heading,.heading-decoration-left,.heading-decoration-right {
@@ -152,6 +154,51 @@ p.pitch {
   padding-left: 50px;
 }
 
+.center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* prevent interferance with Bootstrap*/
+
+html {
+  font-size: 20px;
+  line-height: 2;
+  color: black;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.rounded-img {
+
+}
+
+
+
+p.pitch {
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
 .hobby-head {
   font-family: Helvetica, Charcoal, sans-serif;
   font-size: 30px;
@@ -174,21 +221,9 @@ li.left {
   float: left;
 }
 
-.left {
-  float: left;
-}
 
-.right {
-  float: right;
-}
 
-.center {
-  text-align: center;
-}
 
-.text-white {
-  color: white;
-}
 
 .item-img {
   width: 440px;
@@ -211,7 +246,5 @@ li.left {
   background-size: cover;
 }
 
-p {
-  color: black;
-}
+
 */

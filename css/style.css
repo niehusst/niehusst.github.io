@@ -36,6 +36,9 @@ a:hover {
   font-size: 70px;
   top: 50%;
   left: 50%;
+  white-space: nowrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .cssbtn {
@@ -60,7 +63,7 @@ a:hover {
 }
 
 .bg-img {/*TODO: change to space image */
-  background-image: url(../assets/gratisography-mountain-peaks.jpg);
+  background-image: url(../assets/spacebg.jpeg);
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,10 +121,10 @@ a.tab:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*padding-top: 30px;*/
+  padding-top: 20px;
   width: 50%;
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
 }
 
@@ -136,14 +139,16 @@ p {
 .heading,.heading-decoration-left,.heading-decoration-right {
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
-  color: black;
+  color: white;
   padding-top: 5px;
   font-size: 50px;
   float: left;
 }
 
-.width-auto {
-  width:auto;
+.heading-div {
+  text-align: center;
+  width: auto;
+  padding-top: 30px;
 }
 
 .heading-decoration-left {
@@ -154,8 +159,18 @@ p {
   padding-left: 50px;
 }
 
+.width-auto {
+  width: auto;
+}
+
 .center {
   text-align: center;
+}
+
+.card-center {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .text-white {
@@ -172,12 +187,10 @@ p {
   float: right;
 }
 
-/* prevent interferance with Bootstrap*/
-
 html {
   font-size: 20px;
   line-height: 2;
-  color: black;
+  background-color: black; /* TODO: change to match space image fade out color */
 }
 
 html, body {
@@ -220,9 +233,6 @@ p.pitch {
 li.left {
   float: left;
 }
-
-
-
 
 
 .item-img {

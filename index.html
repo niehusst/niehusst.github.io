@@ -51,14 +51,14 @@
   </nav>
 
   <!-- main background image -->
-  <div class="bg-img w-100" id="about"> <!-- TODO: make bg image space or something -->
+  <div class="bg-img w-100"> <!-- TODO: make bg image space or something -->
     <div class="container"> <!-- TODO: bg color black? -->
 
       <!-- Round image of my face TODO: add preferred headshot to assets-->
       <img src="assets/headshot.jpeg" class="rounded-img headshot" alt="">
 
       <!-- title item -->
-      <h1 class="name">Liam Niehus-Staab</h1>
+      <h1 class="name" id="about">Liam Niehus-Staab</h1>
 
       <!-- * (about) elavator pitch, then another para of more personal things? still image bg -->
       <div class="card bg-dark card-center" style="width: 70%;">
@@ -90,12 +90,12 @@
           <!-- GrammieGram Android app -->
           <div class="container py-5">
             <div class="card flex-row">
-              <img class="fluid-image rounded-left" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="assets/nativeapp.png">
+              <img class="fluid-image rounded-left cont-img" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="assets/nativeapp.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://github.com/niehusst/GrammieGram-Android"><h4 class="card-title">GrammieGram Android Native App</h4></a>
-                  <h5 class="card-title">Head of Android Development, Since Fall 2018</h5>
-                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <h6 class="card-title text-gray">Head of Android Development, Since Fall 2018</h6>
+                  <h6 class="card-title text-gray">Grinnell, Iowa</h6>
                   <p class="card-text">
                     Building on GrammieGram's mission of designing communication technology with ease of
                     use at its core, I was put in charge of leading a brand-new team of 3 Android mobile developers.
@@ -107,28 +107,17 @@
               </div>
             </div>
           </div>
-          <!-- TODO delete
-          <div class="horz">
-            <img style="width:250px;height:400px;" class="item-img left" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="/assets/nativeapp.png">
-
-            <a href="https://github.com/niehusst/GrammieGram-Android"><h4 class="job-head">GrammieGram Android Native App</h4></a>
-
-            <p>
-
-            </p>
-
-          </div>-->
         </li>
         <li>
           <!-- GrammieGram web app-->
           <div class="container py-5">
             <div class="card flex-row">
-              <img class="fluid-image rounded-left" title="GrammieGram Web" alt="GrammieGram Bird in Browser" src="assets/webapp.png">
+              <img class="fluid-image rounded-left cont-img" title="GrammieGram Web" alt="GrammieGram Bird in Browser" src="assets/webapp.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://grammiegram.com"><h4 class="card-title">GrammieGram Web App</h4></a>
-                  <h5 class="card-title">Co-Founder and Full Stack Developer, Summer 2018</h5>
-                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <h6 class="card-title text-gray">Co-Founder and Full Stack Developer, Summer 2018</h6>
+                  <h6 class="card-title text-gray">Grinnell, Iowa</h6>
                   <p class="card-text">
                     I co-founded GrammieGram LLC in the spring of 2018 with 4 close friends. We founded
                     GrammieGram with the goal of solving a problem for our CEO's grandmother; communication technology
@@ -143,29 +132,17 @@
               </div>
             </div>
           </div>
-
-          <!--<div class="horz">TODO: dlete
-            <img class="item-img left" >
-
-              <h4 class="job-head">GrammieGram Web App</h4></a>
-              <h5>Co-Founder and Full Stack Developer, Summer 2018</h5>
-              <h5>Grinnell, Iowa</h5>
-              <p>
-
-              </p>
-
-          </div>-->
         </li>
         <li>
           <!-- MTS -->
           <div class="container py-5">
             <div class="card flex-row">
-              <img class="fluid-image rounded-left" title="MapTextSynthesizer" alt="Map Text Synthesizer" src="assets/mts.png">
+              <img class="fluid-image rounded-left cont-img" title="MapTextSynthesizer" alt="Map Text Synthesizer" src="assets/mts.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://github.com/niehusst/MapTextSynthesizer"><h4 class="card-title">MapTextSynthesizer</h4></a>
-                  <h5 class="card-title">Research Assistant, Summer 2018</h5>
-                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <h6 class="card-title text-gray">Research Assistant, Summer 2018</h6>
+                  <h6 class="card-title text-gray">Grinnell, Iowa</h6>
                   <p class="card-text">
                     With a partner, I developed a program that can train a Convolutional Neural Network
                     to read text in scanned images of historical maps. Our mentor is researching a tool
@@ -183,29 +160,17 @@
               </div>
             </div>
           </div>
-
-          <!--<div class="horz">TODO dlelet
-            <img class="item-img left" >
-
-              <h4 class="job-head"></h4></a>
-              <h5></h5>
-              <h5>Grinnell, Iowa</h5>
-              <p>
-
-              </p>
-
-          </div>-->
         </li>
         <li>
           <!-- Appdev -->
           <div class="container py-5">
             <div class="card flex-row">
-              <img class="fluid-image rounded-left" title="Grinnell Appdev Logo" alt="Grinnell Appdev logo" src="assets/appdev_logo.png">
+              <img class="fluid-image rounded-left cont-img" title="Grinnell Appdev Logo" alt="Grinnell Appdev logo" src="assets/appdev_logo.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://appdev.grinnell.edu/"><h4 class="card-title">Grinnell College AppDev</h4></a>
-                  <h5 class="card-title">Junior Android Developer, Since Spring 2018</h5>
-                  <h5 class="card-title">Grinnell, Iowa</h5>
+                  <h6 class="card-title text-gray">Junior Android Developer, Since Spring 2018</h6>
+                  <h6 class="card-title text-gray">Grinnell, Iowa</h6>
                   <p class="card-text">
                     Working on quality assurance for the Grinnell student directory app (lovingly known as DB) taught me
                     the importance and complexity of testing that is required for large-scale, or even just medium-scale
@@ -217,27 +182,17 @@
               </div>
             </div>
           </div>
-
-          <!--<div class="horz">TODO dlelte
-            <img style="height:440px;" class="item-img left" >
-              <h4 class="job-head"></h4></a>
-              <h5></h5>
-              <h5>Grinnell, Iowa</h5>
-              <p>
-
-              </p>
-          </div>-->
         </li>
         <li>
           <!-- Compliance Accomplice -->
           <div class="container py-5">
             <div class="card flex-row">
-              <img class="fluid-image rounded-left" title="Compliance Accomplice Logo" alt="Compliance Accomplice Logo" src="https://raw.githubusercontent.com/niehusst/ComplianceAccomplice/master/res/logo.png">
+              <img class="fluid-image rounded-left cont-img" title="Compliance Accomplice Logo" alt="Compliance Accomplice Logo" src="assets/ca_logo.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://github.com/niehusst/ComplianceAccomplice"><h4 class="card-title">HackUIowa</h4></a>
-                  <h5 class="card-title">Compliance Accomplice, Fall 2018</h5>
-                  <h5 class="card-title">Iowa City, Iowa</h5>
+                  <h6 class="card-title text-gray">Compliance Accomplice, Fall 2018</h6>
+                  <h6 class="card-title text-gray">Iowa City, Iowa</h6>
                   <p class="card-text">
                     Built during the fall 2018 HackUIowa hackathon, Compliance Accomplice is an email system
                     middleware for detecting and archiving potential SEC compliance issues in a
@@ -250,16 +205,6 @@
               </div>
             </div>
           </div>
-
-          <!--<div class="horz">TODO delete
-            <img style="height:200px;" class="item-img left" >
-              <h4 class="job-head">HackUIowa</h4></a>
-              <h5></h5>
-              <h5>Iowa City, Iowa</h5>
-              <p>
-
-              </p>
-          </div>-->
         </li>
       </ul>
 
@@ -287,6 +232,7 @@
     </div><!-- container -->
 
       <!-- swap which side the images go on-->
+      <!-- TODO: turn into cards and extend container?? -->
       <div class="heading-div" id="hobbies">
         <div class="horz width-auto">
           <h3 class="heading-decoration-left">&gt;</h3>
@@ -297,49 +243,24 @@
       <ul>
         <li>
           <!-- frisbee -->
-          <div class="horz">
-            <img style="height:300px;" class="item-img right" title="Liam Frisbee Fan Image" alt="Frisbee" src="assets/ultimate.jpg">
-            <h4 class="hobby-head">Ultimate Frisbee</h4>
-            <p>
-                Ultimate Frisbee was introduced to me in middle school gym class as the weird
-                sport that didn't make any sense because no one knew the rules. Despite first impressions,
-                I continued playing Ultimate among friends and in the local frisbee league. I went
-                on to co-found my high school's Ultimate Frisbee club and we went on to compete at a
-                state level. Now, I'm the captain of the Ultimate Frisbee open team at Grinnell College
-                where I teach and refine the skills of both new and returning players. My favorite
-                part of Ultimate is being part of a team and enabling our success.
-            </p>
-          </div>
-        </li>
-        <li>
-          <!-- giv -->
-          <div class="horz">
-            <img class="item-img right" title="Vegan" alt="Veganism Image" src="https://openclipart.org/image/2400px/svg_to_png/194524/Vegan.png">
-              <h4 class="hobby-head">Grinnell Intersectional Vegans</h4>
-              <p>
-                After watching a documentary on the adverse effects of animal agriculture on the
-                environment, I decided to go Vegan&trade;. I joined the intersectional vegan club
-                at Grinnell College and learned a lot more about how the actions of an individual
-                can (and do) have an impact on the world, and the importance of self efficacy. Today,
-                I co-lead the Grinnell Intersectional Vegans and help organize club meetings and events.
-              </p>
-          </div>
-        </li>
-        <li>
-          <!-- pals -->
-          <div class="horz">
-            <img style="height:250px;" class="item-img right" title="PALS" alt="PALS" src="assets/palsLogo.png">
-              <h4 class="hobby-head">Powesheik Animal League Shelter (PALS)</h4>
-              <p>
-                I grew up with two cats, which undoubtedly kickstarted my love for animals
-                and particularly cats. I've been volunteering at animal shelters since
-                high school, so I knew that I had to go to a college where I could continue
-                helping animals without homes. I can honestly say that PALS, the animal shelter
-                near Grinnell College, played a part in my college decision and I have no regrets.
-                I volunteer at PALS weekly, cleaning and socializing the amazing felines that live
-                there. It is my bitter-sweet joy to get to know and care for cats at the shelter,
-                and then see them adopted.
-              </p>
+          <div class="container py-5">
+            <div class="card flex-row">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <h4 class="card-title">Ultimate Frisbee</h4>
+                  <p class="card-text">
+                    Ultimate Frisbee was introduced to me in middle school gym class as the weird
+                    sport that didn't make any sense because no one knew the rules. Despite first impressions,
+                    I continued playing Ultimate among friends and in the local frisbee league. I went
+                    on to co-found my high school's Ultimate Frisbee club and we went on to compete at a
+                    state level. In the 2018-2019 school year, I was the captain of the Ultimate Frisbee open-gender
+                    team at Grinnell College, where I taught and refined the skills of both new and returning players.
+                    My favorite part of Ultimate is being part of a team and enabling our collective success.
+                  </p>
+                </div>
+              </div>
+              <img class="fluid-image rounded-right cont-img" title="Liam Frisbee Fan Image" alt="Frisbee" src="assets/ultimate.jpg">
+            </div>
           </div>
         </li>
       </ul>

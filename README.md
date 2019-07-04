@@ -10,7 +10,7 @@ human (and just enough personality to not be a robot).
 * Hosted with <3 by Github pages
 * Font [PressStart2P](https://fonts.google.com/specimen/Press+Start+2P) by Codeman38 from Google fonts
 * TODO: photos acks
-cat icons
+cat icon
 bg photo
 photo of me
 

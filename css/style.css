@@ -197,11 +197,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-.rounded-img {
-
-}
-
-
 
 p.pitch {
   text-align: center;
@@ -209,8 +204,6 @@ p.pitch {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-
 
 .hobby-head {
   font-family: Helvetica, Charcoal, sans-serif;
@@ -234,17 +227,14 @@ li.left {
   float: left;
 }
 
-
-.item-img {
-  width: 440px;
-  height: 360px;
-}
-
 .cont-img {
-  width: 200px;
-  height: 200px;
+  width: 40%;
+  height: 40%;
+  vertical-align: middle;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
-
 
 .bg-col-white {
   background-color: white;
@@ -256,5 +246,6 @@ li.left {
   background-size: cover;
 }
 
-
-*/
+.text-gray {
+  color: #666666;
+}

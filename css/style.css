@@ -33,7 +33,7 @@ a:hover {
   text-align: center;
   color: white;
   font-family: PressStart2P;
-  font-size: 12px;  /* Default for really small devices */
+  font-size: 18px;  /* Default for really small devices */
   top: 50%;
   left: 50%;
   white-space: nowrap;
@@ -41,10 +41,17 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.scaling {
+  font-size: 18px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .name {
     font-size: 25px;
+  }
+  .scaling {
+    font-size: 20px;
   }
 }
 
@@ -53,6 +60,9 @@ a:hover {
   .name {
     font-size: 40px;
   }
+  .scaling {
+    font-size: 36px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -60,12 +70,18 @@ a:hover {
   .name {
     font-size: 55px;
   }
+  .scaling {
+    font-size: 36px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .name {
     font-size: 70px;
+  }
+  .scaling {
+    font-size: 50px;
   }
 }
 
@@ -91,7 +107,7 @@ a:hover {
   color: white;
 }
 
-.bg-img {/*TODO: change to space image */
+.bg-img {
   background-image: url(../assets/spacebg.jpeg);
   background-color: black;
   background-repeat: no-repeat;
@@ -166,7 +182,6 @@ p {
   font-family: Impact, Charcoal, sans-serif;
   color: white;
   padding-top: 5px;
-  font-size: 50px;
   float: left;
 }
 

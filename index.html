@@ -4,21 +4,19 @@
   <!-- Set data for tab -->
   <title>Liam Niehus-Staab</title>
   <link rel="icon" type="image/png" href="https://img.icons8.com/ios-glyphs/30/000000/cat.png">
-  <meta charset="UTF-8">
   <!-- Bootstrap mobile friendly -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
   <!-- My custom CSS and the Bootstrap CSS library -->
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-
+  <!-- Bootstrap JS && jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
   <!--Font Awsome 5.8 (free version) for icons -->
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
-  <!-- Bootstrap JS dependencies -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- navbar -->
@@ -26,7 +24,7 @@
     <a class="navbar-brand p2-font text-white" href="#">Liam</a>
     <!-- Hamburger collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="background-color: white;"></span>
+      <i class="fa fa-bars text-white"></i>
     </button>
     <!-- navbar items -->
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -76,7 +74,7 @@
 
 
       <!-- ### space bg image fades to black here ###
-      * (portfolio) list of things from github i've worked on, paired with images of the things -->
+      * (portfolio) list of things i've worked on, paired with images of the things -->
       <div class="heading-div" id="portfolio">
         <div class="horz width-auto">
           <h3 class="heading-decoration-left">&gt;</h3>
@@ -89,9 +87,27 @@
       <!-- stuff ive done -->
       <ul>
 
-
-          <!-- TODO: add hytrust card -->
-
+        <li>
+          <!-- Hytrust internship -->
+          <div class="container py-5">
+            <div class="card flex-row">
+              <img class="fluid-image rounded-left cont-img" title="HyTrust" alt="Hytrust logo" src="assets/logo_hytrust.png">
+              <div class="d-flex flex-column flex-grow-1">
+                <div class="card-body w-100">
+                  <a href="https://hytrust.com"><h4 class="card-title">HyTrust</h4></a>
+                  <h6 class="card-title text-gray">Software Engineering Intern, Summer 2019</h6>
+                  <h6 class="card-title text-gray">Mountain View, California</h6>
+                  <p class="card-text">
+                    Used Swagger/openAPI to make client-facing Django API self-documenting, greatly reducing documentation 
+                    update turn-around time. Increased products' network security by integrating SSL certificate 
+                    validation between linked products in the field, utilizing openSSL. Used Coverity to locate and 
+                    fix critical issues.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
 
         <li>
           <!-- GrammieGram Android app -->
@@ -101,7 +117,7 @@
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <a href="https://github.com/niehusst/GrammieGram-Android"><h4 class="card-title">GrammieGram Android Native App</h4></a>
-                  <h6 class="card-title text-gray">Head of Android Development, Since Fall 2018</h6>
+                  <h6 class="card-title text-gray">Head of Android Development, 2018-2019</h6>
                   <h6 class="card-title text-gray">Grinnell, Iowa</h6>
                   <p class="card-text">
                     Building on GrammieGram's mission of designing communication technology with ease of
@@ -132,8 +148,7 @@
                     optimized for the elderly, and designed to be as simple to use as possible.
                     That summer, I worked at GrammieGram as a Full Stack developer, building the GrammieGram
                     web app using Python and Django on the backend and JavaScript and Bootstrap on the frontend.
-                    Working remotely with a small team of people I trust, and aiming to improve the lives of real people,
-                    I began to get a better idea of what working as a software engineer really means.
+                    Working remotely with a small team of and a real goal, I got my first taste of real software engineering.
                   </p>
                 </div>
               </div>

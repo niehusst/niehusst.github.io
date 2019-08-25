@@ -261,6 +261,8 @@ li.left {
   margin: auto;
 }
 
+.row-col-changeable {} /* just to mark divs to change with js */
+
 .bg-col-white {
   background-color: white;
   background-size: cover;

@@ -17,6 +17,8 @@
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+  <!-- Custom JS to handle card reordering -->
+  <script src="js/scripts.js"></script>
 </head>
 <body>
   <!-- navbar -->
@@ -89,8 +91,8 @@
 
         <li>
           <!-- Hytrust internship -->
-          <div class="container py-5">
-            <div class="card flex-row">
+          <div class="container py-5"> 
+            <div id="test" class="card flex-row row-col-changeable"> <!--TODO finish testing -->
               <img class="fluid-image rounded-left cont-img" title="HyTrust" alt="Hytrust logo" src="assets/logo_hytrust.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -112,7 +114,7 @@
         <li>
           <!-- GrammieGram Android app -->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <img class="fluid-image rounded-left cont-img" title="GrammieGram Native Android" alt="GrammieGram Bird in Phone" src="assets/nativeapp.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -134,7 +136,7 @@
         <li>
           <!-- GrammieGram web app-->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <img class="fluid-image rounded-left cont-img" title="GrammieGram Web" alt="GrammieGram Bird in Browser" src="assets/webapp.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -158,7 +160,7 @@
         <li>
           <!-- MTS -->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <img class="fluid-image rounded-left cont-img" title="MapTextSynthesizer" alt="Map Text Synthesizer" src="assets/mts.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -186,7 +188,7 @@
         <li>
           <!-- Compliance Accomplice -->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <img class="fluid-image rounded-left cont-img" title="Compliance Accomplice Logo" alt="Compliance Accomplice Logo" src="assets/ca_logo.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -209,7 +211,7 @@
         <li>
           <!-- Appdev -->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <img class="fluid-image rounded-left cont-img" title="Grinnell Appdev Logo" alt="Grinnell Appdev logo" src="assets/appdev_logo.png">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
@@ -263,7 +265,7 @@
         <li>
           <!-- frisbee -->
           <div class="container py-5">
-            <div class="card flex-row">
+            <div class="card flex-row row-col-changeable">
               <div class="d-flex flex-column flex-grow-1">
                 <div class="card-body w-100">
                   <h4 class="card-title">Ultimate Frisbee</h4>

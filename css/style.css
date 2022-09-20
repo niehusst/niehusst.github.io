@@ -167,7 +167,6 @@ a.tab:active {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
-  width: 50%;
   width: 30%;
   height: 30%;
   border-radius: 50%;
@@ -268,8 +267,7 @@ li.left {
 }
 
 .cont-img {
-  width: 40%;
-  height: 40%;
+  width: 200%;
   vertical-align: middle;
   top: 0;
   bottom: 0;

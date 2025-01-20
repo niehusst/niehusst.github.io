@@ -41,48 +41,12 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.elevator-pitch-container {
+  width: 100%;
+}
+
 .scaling {
   font-size: 18px;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .name {
-    font-size: 25px;
-  }
-  .scaling {
-    font-size: 20px;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .name {
-    font-size: 40px;
-  }
-  .scaling {
-    font-size: 36px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .name {
-    font-size: 55px;
-  }
-  .scaling {
-    font-size: 36px;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .name {
-    font-size: 70px;
-  }
-  .scaling {
-    font-size: 50px;
-  }
 }
 
 .cssbtn {
@@ -216,20 +180,10 @@ p {
   color: white;
 }
 
-
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
 html {
   font-size: 20px;
   line-height: 2;
-  background-color: black; /* TODO: change to match space image fade out color */
+  background-color: black;
 }
 
 html, body {
@@ -262,16 +216,16 @@ p.pitch {
   display: inline-block;
 }
 
-li.left {
-  float: left;
-}
-
 .cont-img {
-  width: 200%;
+  flex: 1 1 auto;
   vertical-align: middle;
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+.hobby-img {
+  width: 100%;
 }
 
 .row-col-changeable {} /* just to mark divs to change with js */
@@ -291,18 +245,49 @@ li.left {
   background-size: cover;
 }
 
-.text-gray {
-  color: #666666;
-}
-
-.text-red {
-  color: red;
-}
-
 .text-green {
   color: #27e86b;
 }
 
-.blue-text {
-    color: blue;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .name {
+    font-size: 25px;
+  }
+  .scaling {
+    font-size: 20px;
+  }
+  .elevator-pitch-container {
+    width: 70%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .name {
+    font-size: 40px;
+  }
+  .scaling {
+    font-size: 36px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .name {
+    font-size: 55px;
+  }
+  .scaling {
+    font-size: 36px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .name {
+    font-size: 70px;
+  }
+  .scaling {
+    font-size: 50px;
+  }
 }

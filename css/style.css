@@ -49,6 +49,10 @@ a:hover {
   font-size: 18px;
 }
 
+.content-fill-vertical {
+  min-height: 100vh;
+}
+
 .cssbtn {
   border: 3px;
   padding: 15px 24px;
@@ -130,14 +134,9 @@ a.tab:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
   width: 30%;
   height: 30%;
   border-radius: 50%;
-}
-
-p {
-  color: black;
 }
 
 .heading,.heading-decoration-left,.heading-decoration-right {

@@ -54,6 +54,12 @@ a:hover {
   margin-bottom: 5rem;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .cssbtn {
   border: 3px;
   padding: 15px 24px;
